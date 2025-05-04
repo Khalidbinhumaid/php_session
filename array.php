@@ -39,6 +39,48 @@ $db = [
 
 echo "this is a cookie: ". $db["Cookie"] , "</br>" . "Per_info: " . $db["name"];
 
+
+
+
+
+
+
 ?>
+
+<h1>array methods max , count , sort , rsort </h1>
+
+<?php 
+
+$numbers = array(1,2,4,100,10,44,55,77);
+
+echo "arrays: " , print_r($numbers);
+
+echo "<br>";
+
+echo "max number is: " . max($numbers);
+echo "<br>";
+echo "<br>";
+
+echo "len of array: " . count($numbers);
+echo "<br>";
+
+
+echo "Sort Arrays: " . sort($numbers) , print_r($numbers);
+echo "<br>";
+
+
+echo "Reverse Arrays: " . rsort($numbers) , print_r($numbers);
+echo "<br>";
+
+
+
+
+
+
+
+
+
+?>
+number 99 in array :<?php echo in_array(99,$numbers); ?>  <!-- false -->
 
 </html>
