@@ -14,6 +14,7 @@ $height = 5.9;       // float variable
 echo "String: $name <br>";
 echo "integer: $age <br>";
 echo "float: $height <br>";
+echo "Test: $name <br>";
 
 
 
