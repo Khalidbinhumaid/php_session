@@ -2,30 +2,27 @@
 
 <?php
 
-
-
 $user=$_POST["uname"]?? '';
 $pass=$_POST["psw"] ?? '';
 
+$login = [
 
-$us = ['admin','guest'];
-$ps = ['admin','guest'];
+    'username' => 'admin',
+    'password' => 'Khalid',
+    'guest' => 'guest', 
+    'pguest' => '1212'
 
+];
 
-if (($user == $us[0]) && ($pass == $ps[0])) {
-    echo "welcome admin";
-}elseif(($user == $us[1]) && ($pass == $ps[1])){
+if ($user == $login['username'] && $pass == $login['password']){
+    echo 'welcome admin';
+    
+     
+}elseif($user == $login['guest'] && $pass == $login['pguest']){
     echo "welcome Guest";
 
 }else{
-    echo "access Denied";
+    echo "Access Denied";
 }
-
-
-
-
-
-
-
 
 ?>
