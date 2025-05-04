@@ -14,7 +14,7 @@ $height = 5.9;       // float variable
 echo "String: $name <br>";
 echo "integer: $age <br>";
 echo "float: $height <br>";
-echo "Test: $name <br>";
+
 
 
 
@@ -22,6 +22,17 @@ echo "Test: $name <br>";
 
 ?>
 
+<h2> Simple Math Operations </h2>
+<?php 
+$employee_name = "khalid";
+$employee_working_hourse = 40;
+$employee_salary = 1000;
+$full_package =  $employee_salary * $employee_working_hourse;
+
+echo "Employee Name: $employee_name <br>";
+echo "full package:  $full_package ";
+
+?>
 
 
 </body>
