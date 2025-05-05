@@ -22,7 +22,7 @@ if ($user == $login['username'] && $pass == $login['password']){
     echo "welcome Guest";
 
 }else{
-    echo "Access Denied";
+    echo "Access Denied!";
 }
 
 ?>
