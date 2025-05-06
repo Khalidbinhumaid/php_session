@@ -12,7 +12,7 @@
 for ($i=0; $i <100;$i++){
     if ($i == 23){
         echo "Count : {$i}";
-        break;
+        break;//break
     }
 }
 
