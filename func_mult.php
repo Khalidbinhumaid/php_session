@@ -15,9 +15,9 @@
 
 $res=op(10,4);
 echo "SUM: {$res[0]}<br/>";
-echo "sub: {$res[1]}<br/>";
-echo "mult: {$res[2]}<br/>";
-echo "div: {$res[3]}<br/>";
+echo "Sub: {$res[1]}<br/>";
+echo "Div: {$res[2]}<br/>";
+echo "Mult: {$res[3]}<br/>";
 
 function op($n1,$n2){
     
